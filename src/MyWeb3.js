@@ -5,12 +5,7 @@ import ContractAddress from './ContractAddress'
 const MyWeb3 ={
     init() {
         /*
-        '1': Ethereum Main Network
-        '2': Morden Test network
-        '3': Ropsten Test Network
-        '4': Rinkeby Test Network
-        '5': Goerli Test Network
-        '42': Kovan Test Network
+        '1': OKExChain
         */
         return new Promise((resolve, reject) => {
             //let currentChainId = parseInt(window.ethereum.chainId, 16)
