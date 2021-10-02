@@ -5,7 +5,7 @@ import ContractAddress from './ContractAddress'
 const MyWeb3 ={
     init() {
         /*
-        '1': OKExChain
+        '66': OKExChain
         */
         return new Promise((resolve, reject) => {
             //let currentChainId = parseInt(window.ethereum.chainId, 16)
